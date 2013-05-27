@@ -1,0 +1,30 @@
+{
+    "name":           "digu-backup",
+    "version":        "0.0.1",
+    "description":    "a tool to bakup your digu's message",
+    "main":           "lib/server.js",
+    "scripts":        {
+        "test": "node lib/server.js"
+    },
+    "repository":     {
+        "type": "git",
+        "url":  "git://github.com/wptad/digu-backup.git"
+    },
+    "keywords":       [
+        "digu",
+        "aidigu",
+        "backup"
+    ],
+    "main":           "build/server",
+    "engines":        {
+        "node": "0.8.x"
+    },
+    "dependencies":   {
+        "request": "2.14.*",
+        "async":   "0.1.x"
+    },
+    "author":         "Tad",
+    "license":        "BSD",
+    "readmeFilename": "README.md",
+    "gitHead":        "ebe6f264435edd294dd3dc4f9a1023233908c4dd"
+}
