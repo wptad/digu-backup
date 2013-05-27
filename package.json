@@ -21,7 +21,8 @@
     },
     "dependencies":   {
         "request": "2.14.*",
-        "async":   "0.1.x"
+        "async":   "0.1.x",
+        "ejs":     "0.8.3"
     },
     "author":         "Tad",
     "license":        "BSD",
