@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>嘀咕数据下载</title>
+</head>
+<body>
+   <fieldset>
+       <legend>消息列表</legend>
+       <div>
+           <ul>
+               <% for(var i=0; i<messages.length; i++) {%>
+               <li><%= messages[i].text %>
+
+                   <% for(var j=0; j<messages[i].pics.length; j++) {%>
+                       <img src='<%= messages[i].pics[j] %>'<br>
+                   <% } %>
+                   <br>
+                   <small><%= messages[i].date %></small>
+               </li>
+               <% } %>
+           </ul>
+       </div>
+   </fieldset>
+</body>
+</html>
