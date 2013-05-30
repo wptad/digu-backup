@@ -8,9 +8,20 @@ Backup your data from www.aidigu.com
 2. run `node lib/server.js`
 3. data will saved into `/data/data.txt`
 
+#config/config.js
+
+```
+module.exports ={
+    USER:'user account or email',   //嘀咕账号
+    PASSWORD:'password here',     //嘀咕密码
+    USER_TO_SAVE:'qnqysupi'//需要保存的用户账号，可以是自己，也可以是好友的
+}
+
+```
+
 # Features
 * Back up all your own messages through API
-* Export as HTML file with Images
+* Export as HTML file with Images(Original)
 
 
 
