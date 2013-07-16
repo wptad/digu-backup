@@ -20,7 +20,7 @@
         "node": "0.8.x"
     },
     "dependencies":   {
-        "request": "2.14.*",
+        "request": "2.14.0",
         "async":   "0.1.x",
         "ejs":     "0.8.3"
     },
